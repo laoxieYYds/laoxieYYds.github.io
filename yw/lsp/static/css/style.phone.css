@@ -1,8 +1,9 @@
 @import url(main.css);
 @import url(font.css);
+
 body {
   /* 这里替换移动端背景 */
-  background: url("https://api.vvhan.com/api/wallpaper/mobileGirl") no-repeat center center;
+  background: url("https://image.anosu.top/pixiv/direct?r18=1&keyword=princess") no-repeat center center;
   background-size: cover;
   height: 100vh;
   background-color: var(--xf-black);
