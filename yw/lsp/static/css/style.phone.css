@@ -1,0 +1,79 @@
+@import url(main.css);
+
+body {
+  /* 这里替换移动端背景 https://image.anosu.top/pixiv/direct?r18=1&keyword=princess  */
+  background: url("https://api.vvhan.com/api/wallpaper/mobileGirl") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  background-color: var(--xf-black);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+body .big_box {
+  width: 100%;
+}
+body .big_box .xf_hd_box {
+  position: relative;
+  width: 100%;
+  height: 1.5rem;
+  margin-top: 0.6rem;
+}
+
+
+body .xf_footer {
+  z-index: 9;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 0;
+  font-size: 0.2rem;
+  padding-bottom: 0.15rem;
+}
+
+
+body .xf_footer p a:nth-child(1) {
+  font-weight: 600;
+  color: var(--xf_white);
+  background: -ms-linear-gradient(45deg, var(--xf_gradient_5));
+  background: -webkit-linear-gradient(45deg, var(--xf_gradient_5));
+  background: -moz-linear-gradient(45deg, var(--xf_gradient_5));
+  background: linear-gradient(45deg, var(--xf_gradient_5));
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-animation: xf-copy 20s linear infinite;
+  -webkit-animation: xf-copy 20s linear infinite;
+  animation: xf-copy 20s linear infinite;
+  -webkit-text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+}
+body .xf_footer p a:nth-child(2):hover {
+  color: var(--xf_white);
+}
+body .xf_footer p:nth-child(2) {
+  font-size: 0.25rem;
+}
+body .xf_footer p:nth-child(2) a {
+  color: #c9666600;
+}
+body .xf_footer p:nth-child(3) {
+  font-size: 0.25rem;
+}
+body .xf_footer p:nth-child(3) a {
+  color: var(--xf_grey);
+}
+@keyframes xf-copy {
+  100% {
+    background-position: 104.1667vw 0;
+  }
+}
+
+
+
+
+
+
