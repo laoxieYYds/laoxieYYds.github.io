@@ -4,6 +4,7 @@ body {
 	/* 这里替换PC端背景 https://image.anosu.top/pixiv/direct?r18=1&keyword=princess */
 	background: url("https://api.vvhan.com/api/wallpaper/pcGirl") no-repeat center center;
 	background-size: cover;
+	background-color: var(--xf-black);
 	height: 100vh;
   }
   
