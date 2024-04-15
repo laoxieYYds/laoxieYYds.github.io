@@ -2,9 +2,10 @@
 @import url(font.css);
 body {
   /* 这里替换PC端背景 */
-  background: url("https://image.anosu.top/pixiv/direct?r18=1&keyword=princess") no-repeat center center;
+  background: url("https://api.vvhan.com/api/wallpaper/pcGirl") no-repeat center center;
   background-size: cover;
   height: 100vh;
+  /*https://image.anosu.top/pixiv/direct?r18=1&keyword=princess*/
 }
 body::before {
   content: '';
@@ -1173,7 +1174,7 @@ body .big_box .main_content .xf_right_box .xf_friends .xf_friend_YYDS li a p {
   font-size: 0.0729rem;
 }
 .xf_footer p:nth-child(2) a {
-  color: #c96684;
+  color:  #c9666600;
 }
 .xf_footer p:nth-child(2) img {
   position: absolute;

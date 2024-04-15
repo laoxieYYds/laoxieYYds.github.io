@@ -3,7 +3,7 @@
 
 body {
   /* 这里替换移动端背景 */
-  background: url("https://image.anosu.top/pixiv/direct?r18=1&keyword=princess") no-repeat center center;
+  background: url("https://api.vvhan.com/api/wallpaper/mobileGirl") no-repeat center center;
   background-size: cover;
   height: 100vh;
   background-color: var(--xf-black);
@@ -1152,7 +1152,7 @@ body .xf_footer p:nth-child(2) {
   font-size: 0.25rem;
 }
 body .xf_footer p:nth-child(2) a {
-  color: #c96684;
+  color: #c9666600;
 }
 body .xf_footer p:nth-child(3) {
   font-size: 0.25rem;
