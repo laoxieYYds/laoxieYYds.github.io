@@ -2,7 +2,7 @@
 @import url(font.css);
 body {
   /* 这里替换PC端背景 */
-  background: url("https://uapis.cn/api/imgapi/acg/pc.php") no-repeat center center;
+  background: url("https://api.vvhan.com/api/wallpaper/pcGirl") no-repeat center center;
   background-size: cover;
   height: 100vh;
 }
